@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Сборка desktop (PyInstaller)
+build/
+dist/
+*.exe
+
+# Сборка Android (Buildozer)
+.buildozer/
+android/.buildozer/
+android/bin/
+*.apk
+
+# Пользовательские данные
+stats.json
