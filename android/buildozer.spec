@@ -26,7 +26,7 @@ fullscreen = 0
 # Версии API: 31+ требует Google Play; 21 — минимально поддерживаемая
 android.api = 33
 android.minapi = 21
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 
 # Разрешения не нужны (игра офлайн, без сети/файлов вне песочницы)
 android.permissions =
