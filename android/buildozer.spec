@@ -13,6 +13,11 @@ version = 1.0
 # Зависимости (Kivy тянет за собой всё нужное)
 requirements = python3,kivy==2.3.0
 
+# Версия python-for-android: тег v2024.01.21 собирает Python 3.11.5.
+# Без этого buildozer берёт p4a master (Python 3.14), под который Kivy 2.3.0
+# не компилируется (_PyInterpreterState_GetConfig и пр.).
+p4a.branch = v2024.01.21
+
 # Иконка и заставка (PNG рядом с main.py)
 icon.filename = %(source.dir)s/icon.png
 presplash.filename = %(source.dir)s/icon.png
